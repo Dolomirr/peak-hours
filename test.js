@@ -1,4 +1,4 @@
-import { getPeakHoursStatus, formatPeakHoursMessage } from './dist/peak-hours.js';
+import { getPeakHoursStatus, formatPeakHoursMessage } from './dist/utils.js';
 
 console.log('Testing Peak Hours Plugin Logic...\n');
 

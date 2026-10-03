@@ -1,6 +1,6 @@
 {
 	"name": "@icaruk/zai-peak-hours",
-	"version": "0.7.0",
+	"version": "0.8.0",
 	"type": "module",
 	"description": "OpenCode plugin to display z.ai peak hours information with automatic timezone detection",
 	"main": "dist/index.js",
@@ -25,9 +25,6 @@
 	],
 	"author": "Icaruk",
 	"license": "MIT",
-	"peerDependencies": {
-		"@opencode-ai/plugin": "^1.4.0"
-	},
 	"devDependencies": {
 		"@types/node": "^20.0.0",
 		"typescript": "^5.0.0"

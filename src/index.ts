@@ -1,1 +1,1 @@
-export { PeakHours } from "./plugin.js";
+export { default, default as PeakHours } from './plugin.js';
