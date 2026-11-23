@@ -121,7 +121,7 @@ const plugin = {
 		await ctx.command.transform((editor) => {
 			editor.add({
 				name: 'peak_hours',
-				description: 'Display current z.ai peak hours status and time until next transition',
+				description: 'Display current z.ai and DeepSeek peak hours status and time until next transition',
 				execute: async ({ sessionID }) => {
 					const output = config.enabled
 						? formatPeakHoursMessage(getPeakHoursStatus())
@@ -183,7 +183,7 @@ const plugin = {
 				input.command ??= {};
 				input.command['peak_hours'] = {
 					template: '/peak_hours',
-					description: 'Display current z.ai peak hours status and time until next transition',
+					description: 'Display current z.ai and DeepSeek peak hours status and time until next transition',
 				};
 			},
 
