@@ -7,11 +7,6 @@
 	"exports": {
 		".": "./src/index.ts"
 	},
-	"scripts": {
-		"build": "tsc",
-		"dev": "tsc --watch",
-		"prepublishOnly": "npm run build"
-	},
 	"keywords": [
 		"opencode",
 		"plugin",
@@ -21,10 +16,6 @@
 	],
 	"author": "Icaruk",
 	"license": "MIT",
-	"devDependencies": {
-		"@types/node": "^20.0.0",
-		"typescript": "^5.0.0"
-	},
 	"files": [
 		"src",
 		"README.md",
